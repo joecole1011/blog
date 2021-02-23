@@ -12,5 +12,14 @@
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joecole1011/sclass-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joecole1011/sclass-blog/issues"
+  },
+  "homepage": "https://github.com/joecole1011/sclass-blog#readme",
+  "description": ""
 }
