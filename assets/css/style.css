@@ -6,7 +6,7 @@
 */
 /* 000000-2b2b2b-007bff-75c6fc-ffffff */
 
-/* Section Carousel */
+
 html, body{
     height: 100%;
 }
@@ -35,7 +35,7 @@ html, body{
     background: #595959;
 }
 
-
+/* Section Carousel */
 
 .carousel, 
 .carousel-inner,
