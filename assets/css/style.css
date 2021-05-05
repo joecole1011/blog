@@ -3,6 +3,7 @@
    2. Section Carousel
    3. Section Blog
    4. Section Footer
+   5. Section navbar
 */
 /* 000000-2b2b2b-007bff-75c6fc-ffffff */
 
@@ -90,4 +91,10 @@ body {
   height: 90px;
   line-height: 90px;
   text-align: center;
+}
+
+/* Section navbar */
+#navbar {
+  padding: 25px;
+  transition: 0.5s;
 }
