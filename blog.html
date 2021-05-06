@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About</title>
+    <title>Blog</title>
 </head>
 <body>
 <!-- Navbar -->
@@ -58,8 +58,13 @@
     <div class="row pb-4">
         <div class="col-12 text-center">
             <div class = "btn-group-custom">
-                <button class="btn btn-primary">ทั้งหมด</button>
-                <button class="btn btn-primary">ท่องเที่ยว</button>
+                <a href="blog.html?tag=all">
+                    <button class="btn btn-primary active">ทั้งหมด</button>
+                </a>
+                <a href="blog.html?tag=travel">
+                    <button class="btn btn-primary">ท่องเที่ยว</button>
+                </a>
+                
                 <button class="btn btn-primary">อาหาร</button>
                 <button class="btn btn-primary">ไอที</button>
                 <button class="btn btn-primary">ไลฟ์สไตล์</button>
@@ -69,18 +74,17 @@
             <div class="row">
                 <section class ="col-12 col-sm-6 col-md-4 p-2"> <!-- col-12 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์-->
                     <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img1.webp" class="card-img-top" alt="Coding">
+                        <a href="blog-detail.html?id=001" class="warpper-card-img">
+                            <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80" class="card-img-top" alt="Coding">
                         </a>
                         </a><div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title">หนาวนี้ไปเที่ยวไหนดี...</h5>
+                          <p class="card-text">เพชรบูรณ์ ภูทับเบิก เขาค้อ </p>
                           
                         </div>
                         <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                            <a href="blog-detail.html?id=001" class="btn btn-primary btn-block">Go somewhere</a>
                         </div>
-
                     </div>
                 </section>
                 <section class ="col-12 col-sm-6 col-md-4 p-2">  <!-- col-12 col-sm-6 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์ ถ้าเล็กสุดให้ 1 คอลัมม์-->
