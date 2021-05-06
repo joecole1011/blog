@@ -72,8 +72,14 @@ body {
 .warpper-card-img img:hover {
   transform: scale(1.2);
 }
-/* Section Footer */
+.btn-group-custom button{
+  margin-bottom: 0.5rem;
+  width: 100px;
 
+}
+
+
+/* Section Footer */
 .semi-footer {
   background-color: #2b2b2b;
   color: #ffffff;
