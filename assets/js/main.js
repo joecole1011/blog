@@ -14,6 +14,7 @@ $( window ).on('scroll', function(){
     }
     $('#navbar').css('padding', score)
 });
+/*
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -34,3 +35,4 @@ $(document).ready(function(){
         }
     });
 });
+/*
