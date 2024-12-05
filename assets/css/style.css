@@ -44,15 +44,18 @@ body {
 .active {
   height: 100%;
 }
+
 .carousel-img {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
 }
+
 .carousel-caption {
   top: 40%;
 }
+
 .backscreen {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
@@ -64,40 +67,52 @@ body {
   padding-top: 56.25%;
   overflow: hidden;
 }
+
 .warpper-card-img img {
   position: absolute;
   top: 0;
   transition: 1s;
 }
+
 .warpper-card-img img:hover {
   transform: scale(1.2);
 }
-.btn-group-custom button{
+
+.btn-group-custom button {
   margin-bottom: 0.5rem;
   width: 100px;
 
 }
-.blog-image{
-  padding: 200px 0px 120px ;
+
+/*
+.blog-image {
+  padding: 200px 0px 120px;
   text-align: center;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.5)
 }
-.blog-content{
-  padding: 50px 100px ;
+*/
+
+.blog-content {
+  padding: 50px 100px;
   box-shadow: 0px 0px 10px #a5a5a5;
-   
+
 }
 
-@media (max-width: 991px){
-  .blog-content{
-    padding: 40px 50px ;
+.owl-carousel .card-body {
+  height: 150px;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .blog-content {
+    padding: 40px 50px;
   }
 }
 
-@media (max-width: 768px){
-  .blog-content{
-    padding: 20px 15px ;
+@media (max-width: 768px) {
+  .blog-content {
+    padding: 20px 15px;
   }
 }
 
@@ -108,14 +123,17 @@ body {
   background-color: #2b2b2b;
   color: #ffffff;
 }
+
 .semi-footer a {
   color: #ffffff;
 }
+
 .semi-footer h4 {
   color: #75c6fc;
   border-bottom: 1px solid;
   padding: 10px 0;
 }
+
 .footer {
   background: #000000;
   color: #ffffff;
@@ -131,15 +149,25 @@ body {
   transition: 0.5s;
 }
 
-/* Section Page-title */
-.page-title{
-  position: relative;
-  display: block;
-  padding-top: 250px;
-  padding-bottom: 100px;
-  color: #FFFFFF;
-  
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
 }
+
+
+/* Section Page-title */
+
+.page-image {
+  padding: 200px 0px 120px;
+  text-align: center;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+
 
 /* Section Timeline */
 .timeline {
@@ -223,6 +251,7 @@ li.inverted>.timeline-card {
   clear: both;
   display: block;
 }
+
 .timeline-arrow {
   width: 100%;
   text-align: center;
@@ -232,41 +261,49 @@ li.inverted>.timeline-card {
 
 
 
-@media (max-width: 768px){
-.timeline::before,
+@media (max-width: 768px) {
+
+  .timeline::before,
   .timeline-badge {
-      left: 40px !important;
+    left: 40px !important;
   }
+
   .timeline-badge::before {
-      right: -32px !important;
+    right: -32px !important;
   }
+
   .timeline-badge p,
   li.inverted>.timeline-badge p {
-      margin-left: 50px !important;
-      text-align: left;
-      float: left;
+    margin-left: 50px !important;
+    text-align: left;
+    float: left;
   }
+
   li>.timeline-card {
-      width: 100%;
-      text-align: left;
-      padding: 37px 0 0 85px;
+    width: 100%;
+    text-align: left;
+    padding: 37px 0 0 85px;
   }
+
   .timeline-arrow {
-      text-align: left;
-      left: 0;
+    text-align: left;
+    left: 0;
   }
+
   .timeline-arrow {
-      padding-left: 32px;
+    padding-left: 32px;
   }
 }
+
 /* Section Star  ☆★ */
-.star-rating{
+.star-rating {
   position: relative;
   font-size: 2em;
   color: gold;
   display: inline-block;
 }
-.star-current{
+
+.star-current {
   position: absolute;
   top: 0;
   width: 20%;
