@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,249 +8,275 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <title>Blog Kimzun</title>
 </head>
+
 <body>
-<!-- Navbar -->
+    <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-alpha">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/image/bootstrap-solid.svg" width="30" height="30" alt=""> Kimzun
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarKey" aria-controls="navbarKey" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarKey"
+                aria-controls="navbarKey" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarKey">
-            <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-                </li>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-<!-- Carousel -->
-        <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class= "carousel-img" style="background-image: url('https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80')">  
+    <!-- Carousel -->
+    <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80')">
                     <div class="carousel-caption">
                         <h1 class="display-3 font-weight-bold">Kimzun Freedom</h1>
                         <p class="lead">ท่องเที่ยว กิน ไอที ไลฟ์สไตล์</p>
                     </div>
                     <div class="backscreen"></div>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">                
-                        <div class= "carousel-img" style="background-image: url('https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')"> 
-                            <div class="carousel-caption">
-                                <h1 class="display-3 font-weight-bold">Kimzun Freedom</h1>
-                                <p class="lead">ท่องเที่ยว กิน ไอที ไลฟ์สไตล์</p>
-                            </div>
-                            <div class="backscreen"></div>
-                        </div>
-                    
-                </div>
-                <div class="carousel-item">
-                    
-                        <div class= "carousel-img" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80')"> 
-                            <div class="carousel-caption">
-                                <h1 class="display-3 font-weight-bold">Kimzun Freedom</h1>
-                                <p class="lead">ท่องเที่ยว กิน ไลฟ์สไตล์ ไอที</p>
-                            </div>
-                            <div class="backscreen"></div>
-                        </div>
-                    
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </section>
 
-<!-- Jumbotron -->
-        <section class="jumbotron jumbotron-fluid text-center">
-            <div class="container">
+            <div class="carousel-item">
+                <div class="carousel-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')">
+                    <div class="carousel-caption">
+                        <h1 class="display-3 font-weight-bold">Kimzun Freedom</h1>
+                        <p class="lead">ท่องเที่ยว กิน ไอที ไลฟ์สไตล์</p>
+                    </div>
+                    <div class="backscreen"></div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <div class="carousel-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80')">
+                    <div class="carousel-caption">
+                        <h1 class="display-3 font-weight-bold">Kimzun Freedom</h1>
+                        <p class="lead">ท่องเที่ยว กิน ไลฟ์สไตล์ ไอที</p>
+                    </div>
+                    <div class="backscreen"></div>
+                </div>
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!-- Jumbotron -->
+    <section class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
             <h1 class="border-short-bottom">อิสระเสรีกับการใช้ชิวิต</h1>
-            
+
             <p class="lead">โลกกว้างไกล มีสิ่งที่ต้องเรียนรู้อีกเยอะ ทำสิ่งที่อย่างจะทำ แล้วก็ลงมือทำมันซะ</p>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section class="container">
+        <h1 class="border-short-botton text-center">บทความ Blog</h1>
+        <div class="row">
+            <section class="col-12 col-sm-6 col-md-4 p-2"> <!-- col-12 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์-->
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img1.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 p-2">
+                <!-- col-12 col-sm-6 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์ ถ้าเล็กสุดให้ 1 คอลัมม์-->
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img2.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 p-2">
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img3.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 p-2"> <!-- col-12 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์-->
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img4.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 p-2">
+                <!-- col-12 col-sm-6 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์ ถ้าเล็กสุดให้ 1 คอลัมม์-->
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img5.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-4 p-2">
+                <div class="card h-100">
+                    <a href="#" class="warpper-card-img">
+                        <img src="assets/image/blog/img6.webp" class="card-img-top" alt="Coding">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="p-3">
+                        <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="semi-footer p-5 text-center text-md-left">
+        <div class="row">
+            <div class="col-md-4">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/image/bootstrap-solid.svg" width="30" height="30" alt=""> Kimzun
+                </a>
+                <p>
+                    <i class="fas fa-phone-square-alt"></i> 081-2345678 <br>
+                    <i class="fas fa-envelope-open-text"></i> aaa@aaa.com <br>
+                    <i class="fas fa-address-card"></i> Lorem ipsum dolor sit amet.
+                </p>
+
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+
             </div>
-        </section>
-        
-
- <!-- Blog -->
-        <section class ="container" >
-            <h1 class="border-short-botton text-center">บทความ Blog</h1>
-            <div class="row">
-                <section class ="col-12 col-sm-6 col-md-4 p-2"> <!-- col-12 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์-->
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img1.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        </a><div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          
-                        </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-
-                    </div>
-                </section>
-                <section class ="col-12 col-sm-6 col-md-4 p-2">  <!-- col-12 col-sm-6 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์ ถ้าเล็กสุดให้ 1 คอลัมม์-->
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img2.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-                    </div>
-                </section>
-                <section class ="col-12 col-sm-6 col-md-4 p-2">
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img3.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-                    </div>
-                </section>
-                <section class ="col-12 col-sm-6 col-md-4 p-2"> <!-- col-12 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์-->
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img4.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                         </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-                    </div>
-                </section>
-                <section class ="col-12 col-sm-6 col-md-4 p-2">  <!-- col-12 col-sm-6 col-md-4 12 หาร 4 เท่ากับ 3 แถวละ 3 คอลัมม์ ถ้าเล็กสุดให้ 1 คอลัมม์-->
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img5.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-                    </div>
-                </section>
-                <section class ="col-12 col-sm-6 col-md-4 p-2">
-                    <div class="card h-100">
-                        <a href="#" class="warpper-card-img">
-                            <img src="assets/image/blog/img6.webp" class="card-img-top" alt="Coding">
-                        </a>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <div class="p-3">
-                            <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
-                        </div>
-                    </div>
-                </section>
-            </div> 
-        </section>
-<!-- Footer -->
-        <footer class="semi-footer p-5 text-center text-md-left">
-            <div class="row">
-                <div class="col-md-4">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/image/bootstrap-solid.svg" width="30" height="30" alt=""> Kimzun
-                    </a>
-                    <p>
-                        <i class="fas fa-phone-square-alt"></i> 081-2345678 <br>
-                        <i class="fas fa-envelope-open-text"></i> aaa@aaa.com <br>
-                        <i class="fas fa-address-card"></i> Lorem ipsum dolor sit amet. 
-                    </p>
-
-                     <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                    </a>
-                     <a href="https://www.youtube.com/" target="_blank">
-                        <i class="fab fa-youtube fa-2x"></i>
-                    </a>
-                    
-                </div>
-                <div class="col-md-4">
-                    <h4>เมนู</h4>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4>แผนที่</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.3669367172524!2d100.49254881419733!3d13.756731890344248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2990db4a963f9%3A0x69fc3357641e5a44!2z4Liq4LiZ4Liy4Lih4Lir4Lil4Lin4LiH!5e0!3m2!1sth!2sth!4v1620240784506!5m2!1sth!2sth" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+            <div class="col-md-4">
+                <h4>เมนู</h4>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-        <footer class="footer">
-            <span> COPYRIGHT @ 2024 <a href="https://www.facebook.com/" target="_blank">Kimzun</a> 
-                ALL Right Reserved 
-            </span>
-            
-        </footer>
+            <div class="col-md-4">
+                <h4>แผนที่</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.3669367172524!2d100.49254881419733!3d13.756731890344248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2990db4a963f9%3A0x69fc3357641e5a44!2z4Liq4LiZ4Liy4Lih4Lir4Lil4Lin4LiH!5e0!3m2!1sth!2sth!4v1620240784506!5m2!1sth!2sth"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer">
+        <span> COPYRIGHT @ 2024 <a href="https://www.facebook.com/" target="_blank">Kimzun</a>
+            ALL Right Reserved
+        </span>
 
-  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
